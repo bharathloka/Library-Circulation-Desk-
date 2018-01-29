@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>checking out a Book</title>
+<style>
+#checkout{
+width: 100px;  height:50px;
+}
+
+</style>
+</head>
+<body>
+<nav>
+<a href="index.jsp">Home</a> |
+<a href="checkout.html">Checkout a book</a> |
+<a href="checkin.html">Check in a book</a> |
+<a href="Borrower.html">Add new Borrower</a> |
+<a href="finescheck.html">Check fines</a>
+</nav>
+<form action="example" method="get">
+<div align="center">
+<h3 >Checking out a book</h3>
+
+<table>
+<tr>
+<td>Book Isbn:</td>
+<td><input type="text" name="isbn"></td>
+</tr>
+
+<tr>
+<td>Card_id:</td>
+<td><input type="text" name="card_id"></td>
+</tr>
+
+<tr>
+<td><input type="hidden" name="reference" value="checkout"></td>
+<td><input type="submit" id="checkout" value="checkout"></td>
+</tr>
+
+
+
+</table>
+</div>
+</form>
+</body>
+</html>

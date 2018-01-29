@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+#search{
+width: 100px;  height:50px;
+}
+
+</style>
+</head>
+<body>
+<nav>
+<a href="index.jsp">Home</a> |
+<a href="checkout.html">Checkout a book</a> |
+<a href="checkin.html">Check in a book</a> |
+<a href="Borrower.html">Add new Borrower</a> |
+<a href="finescheck.html">Check fines</a>
+</nav>
+<form action="example" method="get">
+<h3 align="center">Adding New Borrower Info</h3>
+  <div align="center">
+  <table>
+  <tr>
+    <td>card_id:</td>
+    <td><input type="text" name="card_id"></td>
+   </tr>
+    
+ <tr>
+    <td>SSN:</td>
+    <td><input type="text" name="ssn"></td>
+   </tr>
+   
+   <tr>
+    <td>First name:</td>
+    <td><input type="text" name="firstname"></td>
+   </tr>
+   <tr>
+    <td>last name:</td>
+    <td><input type="text" name="lastname"></td>
+   </tr>
+   <tr>
+    <td>Email:</td>
+    <td><input type="email" name="email"></td>
+   </tr>
+   <tr>
+    <td>Address:</td>
+    <td><input type="text" name="address"></td>
+   </tr>
+   <tr>
+    <td>city:</td>
+    <td><input type="text" name="city"></td>
+   </tr>
+   <tr>
+    <td>State:</td>
+    <td><input type="text" name="state"></td>
+   </tr>
+   <tr>
+    <td>Phone:</td>
+    <td><input type="text" name="phone"></td>
+   </tr>
+   <tr>
+   <td><input type="hidden" name="reference" value="borrower"></td>
+   <td><input type="submit"  id="search" value="submit"></td>
+   </tr>
+  </table>
+  </div>
+</form>
+
+</body>
+</html>
